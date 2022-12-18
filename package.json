@@ -1,0 +1,30 @@
+{
+  "name": "project-restaurantmenu",
+  "version": "1.0.0",
+  "description": "Meal Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js",
+    "server": "light-server  -s . -p 3000 -x "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austinjnr/project-restaurantMenu.git"
+  },
+  "keywords": [
+    "Fetch",
+    "DOM",
+    "Eventlisnter"
+  ],
+  "author": "Austin Obonyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austinjnr/project-restaurantMenu/issues"
+  },
+  "homepage": "https://github.com/Austinjnr/project-restaurantMenu#readme",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "light-server": "^2.9.1"
+  }
+}
