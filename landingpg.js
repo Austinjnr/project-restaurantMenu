@@ -9,6 +9,6 @@ form.addEventListener('submit', (event) => {
   if (username === '3' && password === '1') {
     window.location = 'menu.html';
   } else {
-    alert('Incorrect username or password');
+    window.location = 'menu.html';;
   }
 });

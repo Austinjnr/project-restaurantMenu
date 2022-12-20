@@ -1,19 +1,75 @@
 {
-  "posts": [
+  "meals": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "idMeal": 1,
+      "mealName":"Smoky Bacon, Potato and Cheddar Hash",
+      "category":"Breakfast",
+      "description": "With melty cheddar cheese, crispy bacon, and golden russet potatoes, our breakfast hash recipe will be your new favorite breakfast!",
+      "image":"https://images.pexels.com/photos/4202381/pexels-photo-4202381.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "1000ksh"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "idMeal": 2,
+      "mealName":"Granola with Figs, Almonds and Coconut",
+      "category":"Breakfast",
+      "description": "healthy, filling, delicious alchemy that happens when you combine oats, honey, and oil with some handfuls of chopped nuts and dried fruit into an incredibly easy-to-bake batch of granola.",
+      "image":"https://images.pexels.com/photos/5505467/pexels-photo-5505467.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 3,
+      "mealName":"Baked French Toast",
+      "category":"Breakfast",
+      "description": "bread dipped in a batter of egg and milk and sautéed until brown, usually served with syrup or sprinkled with sugar and cinnamon.",
+      "image":"https://images.pexels.com/photos/5591726/pexels-photo-5591726.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "1000ksh"
+    }, {
+      "idMeal": 4,
+      "mealName":"Chicken Fried Rice",
+      "category":"Lunch",
+      "image": "https://images.pexels.com/photos/7758253/pexels-photo-7758253.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "description":"Chicken fried rice is the comfort dish of Chinese food with the addition of oil and soy sauce and veggies and meat spruce up the rice for a delicious meal.",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 5,
+      "mealName":"Lentil Soup",
+      "category":"Lunch",
+      "image": "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "description":"It is made with mostly pantry ingredients but includes hearty greens and a squeeze of lemon for bright, fresh flavor. It’s seasoned with a few of my favorite spices and plenty of freshly ground black pepper.",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 6,
+      "mealName":"Chili con carne",
+      "category":"Lunch",
+      "image": "https://images.unsplash.com/photo-1633983055303-2e33e153b7dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Q2hpbGklMjBzb3VwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "description":"It is a spicy stew containing chili peppers, meat, tomatoes and pinto beans or kidney beans seasoned with garlic, onions, and cumin. ",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 7,
+      "mealName":"Caesar salad",
+      "category":"Dinner",
+      "description": "Crispy prosciutto and toasted sourdough bread adds extra crunch to this caesar salad.",
+      "image":"https://img.taste.com.au/zVJj4Isw/w720-h480-cfill-q80/taste/2018/08/17-minute-caesar-salad_1980x1320-140424-1.jpg",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 8,
+      "mealName":"Mexican zucchini slice",
+      "category":"Dinner",
+      "description": "A Mexican-inspired zucchini slice up to two days in advance. Gently warm in the oven before serving, then top with the avocado, tomato and sriracha.",
+      "image":"https://img.taste.com.au/S8E10O8A/w720-h480-cfill-q80/taste/2019/02/mexican-zucchini-slice-147099-1.jpg",
+      "price": "1000ksh"
+    },
+    {
+      "idMeal": 9,
+      "mealName":"",
+      "category":"Dinner",
+      "description": "For a fast and satisfying Dinner, turn to this fresh tomato and tuna pasta is your way to go",
+      "image":"https://img.taste.com.au/PB39MKOs/w720-h480-cfill-q80/taste/2016/11/ready-in-a-flash-tuna-pasta-62647-1.jpeg",
+      "price": "1000ksh"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

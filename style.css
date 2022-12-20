@@ -131,11 +131,7 @@ body{
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
-.single-menu .menu-content h4 span{
-    color: rgb(187, 5, 5);
-    font-weight: 600;
-    font-style: italic;
-}
+
 .single-menu{
     display: flex;
     align-items: center;
@@ -148,6 +144,7 @@ body{
     color: rgb(248, 248, 248);
     border-radius: 8px;
     cursor: pointer;
+    margin-left: 111px;
 }
 .menu-content button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
