@@ -6,34 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Menu</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
 </head>
 <body> 
-    <div class="landingpg">
-     <div class="container">
-        <div class="loginbg"></div>
-
-        <div class="formbx">
-            <div class="form siginform">
-                <form>
-                    <h2>Kaws Restaurant</h2>
-                    <h3>Sign In</h3>
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
-
-
-                    <a href="home.html">
-                        <input type="button" value="Login">
-                        </a>
-
-
-                </form>
-            </div>
-        </div>
-     </div>
-    </div>
-
-
     <div class="main">
+        <nav class="navbar bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-item text-light" id="home-link">HOTEL MENU</a>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="./checkout.html">
+                    <button class="btn btn-outline-warning me-md-2" type="button">ORDERED MEAL(S
+                        s)</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
         <div class="section-title">
             <h2>RESTAURANT MENU</h2>
             <P>Welcome to Kaws Restaurant where your meal is a button away</P>
@@ -134,26 +122,6 @@
             </div>
         </div>
     </div>
-
-    <div class="container2">
-        <div class="menu">
-          <div class="header">
-            <h1>KAWS RESTAURANT CHECKOUT</h1>
-          </div>
-          <div class="orders">
-            <div class="header">
-              <h1>ORDERS</h1>
-              <p><span id="itemnumber">0</span> ITEMS</p>
-            </div>
-            <div class="bill">
-              <div class="cash total">Total<span id="total"> 0KSH</span></div>
-              <div class="button"><button>PAY</button></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     <script type="text/javascript" src="./index.js"></script>
-    <script type="text/javascript" src="./landingpg.js"></script>
-    <script type="text/javascript" src="./checkout.js"></script>
+    </body>
 </html>
