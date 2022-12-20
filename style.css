@@ -131,7 +131,14 @@ body{
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
-
+.single-menu .menu-content span{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: rgb(169, 36, 24);
+}
 .single-menu{
     display: flex;
     align-items: center;

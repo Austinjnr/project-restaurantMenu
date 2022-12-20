@@ -7,8 +7,11 @@ form.addEventListener('submit', (event) => {
   const password = document.getElementById('password').value;
 
   if (username === '3' && password === '1') {
-    window.location = 'menu.html';
+    alert('Welcome customer (Details auto saved)');
   } else {
-    window.location = 'menu.html';;
+    alert('New User (Details auto saved)');
   }
 });
+
+
+

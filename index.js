@@ -1,8 +1,20 @@
 const meals_url = "http://localhost:3000/meals"
 document.addEventListener('DOMContentLoaded', () => {
 
+    const menuBody = document.getElementById('kaws')
+    const landingPg = document.getElementById('login')
+    //link data
+    const buttonLink = document.getElementById('btn-link')
+
+
+    buttonLink.addEventListener('click', () => {
+        landingPg.style.display = "none"
+        menuBody.removeAttribute('hidden')
+        menuBody.style.display = "block"
+    })
+
     //create option1
-    const createBreakfast1 = (image, name, description, price) => {
+    const createMeal1 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -52,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast2 = (image, name, description, price) => {
+    const createMeal2 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -102,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast3 = (image, name, description, price) => {
+    const createMeal3 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -152,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast4 = (image, name, description, price) => {
+    const createMeal4 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -202,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast5 = (image, name, description, price) => {
+    const createMeal5 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -252,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast6 = (image, name, description, price) => {
+    const createMeal6 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -302,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast7 = (image, name, description, price) => {
+    const createMeal7 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -352,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast8 = (image, name, description, price) => {
+    const createMeal8 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -402,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    const createBreakfast9 = (image, name, description, price) => {
+    const createMeal9 = (image, name, description, price) => {
 
         const menuDiv = document.createElement('div')
         menuDiv.classList.add('single-menu')
@@ -453,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     //load option1 
-    const loadBreakfast1 = () => {
+    const loadMeal1 = () => {
         fetch(meals_url)
             .then((response) => response.json())
             .then((data) => {
@@ -462,14 +474,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const description = mealData.description
                 const image = mealData.image
                 const price = mealData.price
-                const mealElement = createBreakfast1(image, name, description, price)
+                const mealElement = createMeal1(image, name, description, price)
                 document.getElementById('option1').appendChild(mealElement)
             })
     }
-loadBreakfast1()
+loadMeal1()
 
     //load option2 
-    const loadBreakfast2 = () => {
+    const loadMeal2 = () => {
         fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -478,14 +490,14 @@ loadBreakfast1()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal2(image, name, description, price)
             document.getElementById('option2').appendChild(mealElement)
         })
 }
-loadBreakfast2()
+loadMeal2()
 
   //load option3 
-  const loadBreakfast3 = () => {
+  const loadMeal3 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -494,14 +506,14 @@ loadBreakfast2()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal3(image, name, description, price)
             document.getElementById('option3').appendChild(mealElement)
         })
 }
-loadBreakfast3()
+loadMeal3()
 
   //load option4 
-  const loadBreakfast4 = () => {
+  const loadMeal4 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -510,14 +522,14 @@ loadBreakfast3()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal4(image, name, description, price)
             document.getElementById('option4').appendChild(mealElement)
         })
 }
-loadBreakfast4()
+loadMeal4()
 
   //load option5 
-  const loadBreakfast5 = () => {
+  const loadMeal5 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -526,14 +538,14 @@ loadBreakfast4()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal5(image, name, description, price)
             document.getElementById('option5').appendChild(mealElement)
         })
 }
-loadBreakfast5()
+loadMeal5()
 
   //load option6 
-  const loadBreakfast6 = () => {
+  const loadMeal6 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -542,14 +554,14 @@ loadBreakfast5()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal6(image, name, description, price)
             document.getElementById('option6').appendChild(mealElement)
         })
 }
-loadBreakfast6()
+loadMeal6()
 
   //load option7 
-  const loadBreakfast7 = () => {
+  const loadMeal7 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -558,14 +570,14 @@ loadBreakfast6()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal7(image, name, description, price)
             document.getElementById('option7').appendChild(mealElement)
         })
 }
-loadBreakfast7()
+loadMeal7()
 
   //load option8 
-  const loadBreakfast8 = () => {
+  const loadMeal8 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -574,14 +586,14 @@ loadBreakfast7()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal8(image, name, description, price)
             document.getElementById('option8').appendChild(mealElement)
         })
 }
-loadBreakfast8()
+loadMeal8()
 
   //load option9 
-  const loadBreakfast9 = () => {
+  const loadMeal9 = () => {
     fetch(meals_url)
         .then((response) => response.json())
         .then((data) => {
@@ -590,9 +602,9 @@ loadBreakfast8()
             const description = mealData.description
             const image = mealData.image
             const price = mealData.price
-            const mealElement = createBreakfast1(image, name, description, price)
+            const mealElement = createMeal9(image, name, description, price)
             document.getElementById('option9').appendChild(mealElement)
         })
 }
-loadBreakfast9()
+loadMeal9()
 })
