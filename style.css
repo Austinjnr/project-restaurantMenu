@@ -11,6 +11,80 @@ body{
     color: #222;
     
 }
+.landingpg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    align-items: center;
+    position:relative;
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    background: none;
+  
+}
+.formbx{
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;  
+    height:100%;
+    background:rgb(206, 198, 198);
+    z-index: 1000;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0 5px 45px rgb(63, 61, 61);
+    overflow: hidden;
+}
+.formbx.active{
+    left:50%;
+}
+.formbx .form{
+    position:absolute;
+    left:0;
+    width:100%;
+    padding:50px;
+    transition:0.5s;
+}
+.formbx .form form h2{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formbx .form form h3{
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 6px;
+    font-weight: 500;
+
+}
+.formbx .form form input{
+    width: 100%;
+    margin-bottom:20px;
+    padding: 10px;
+    outline:none;
+    font-size:16px;
+    border:1px solid #333;
+}
+.formbx .form form input[type="button"]{
+    background:rgb(45, 4, 107);
+    border:none;
+    color:rgb(255, 255, 255);
+    max-width: 100px;
+    cursor:pointer;
+}
+
+.formbx .form form .forgot{
+    color:#333;
+    text-decoration: none;
+}
 .main{
     width: 1170px;
     margin: 100px auto;
