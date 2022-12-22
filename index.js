@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const menuBody = document.getElementById('kaws')
     const landingPg = document.getElementById('login')
-    //link data
+    
     const buttonLink = document.getElementById('btn-link')
 
 
@@ -49,8 +49,17 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
+
+        //append button
         bodyDiv.appendChild(orderButton)
-        
+
+        orderButton.addEventListener('click', () => {
+            if (orderButton.textContent === 'ORDER MEAL') {
+              orderButton.textContent = 'Meal Order';
+            } else {
+              orderButton.textContent = 'ORDER MEAL';
+            }
+          });
        
 
         //append image
@@ -94,14 +103,23 @@ document.addEventListener('DOMContentLoaded', () => {
         const orderButton = document.createElement('button')
         orderButton.classList.add('btn')
         orderButton.innerHTML = `ORDER MEAL`
+        
 
         //append body elements
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+         //append button
+         bodyDiv.appendChild(orderButton)
+
+         orderButton.addEventListener('click', () => {
+             if (orderButton.textContent === 'ORDER MEAL') {
+               orderButton.textContent = 'Meal Order';
+             } else {
+               orderButton.textContent = 'ORDER MEAL';
+             }
+           });
         
-       
 
         //append image
         imgDiv.appendChild(mealImg)
@@ -149,7 +167,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+        
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -199,7 +228,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+        
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -249,7 +289,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+        
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -299,7 +350,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+       
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -349,7 +411,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+        
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -399,7 +472,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+       
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
@@ -449,7 +533,18 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyDiv.appendChild(mealTitle)
         bodyDiv.appendChild(mealDescription)
         bodyDiv.appendChild(mealPrice)
-        bodyDiv.appendChild(orderButton)
+        
+          //append button
+          bodyDiv.appendChild(orderButton)
+
+          orderButton.addEventListener('click', () => {
+              if (orderButton.textContent === 'ORDER MEAL') {
+                orderButton.textContent = 'Meal Order';
+              } else {
+                orderButton.textContent = 'ORDER MEAL';
+              }
+            });
+         
         
        
 
