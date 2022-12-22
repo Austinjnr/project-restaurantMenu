@@ -1,4 +1,4 @@
-const meals_url = "http://localhost:3000/meals"
+const meals_url = "http://localhost:3000/meals" // won't fetch from live host https://austinjnr.github.io/data/mealdb.json
 document.addEventListener('DOMContentLoaded', () => {
 
     const menuBody = document.getElementById('kaws')
