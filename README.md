@@ -2,7 +2,7 @@
 
 # Description
 This a restaurant online meal menu, where a meal or drink is a button a way from been served. 
-Access the web application page via this <a href =" https://austinjnr.github.io/project-restaurantMenu/">link.</a>
+Access the web application page via this <a href ="https://austinjnr.github.io/project-restaurantMenu/">link.</a>
 
 # Built with 
 This application was built with the following technologies:
